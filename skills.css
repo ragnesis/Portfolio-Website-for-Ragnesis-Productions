@@ -1,0 +1,151 @@
+body{
+    background-color: #F4F3F0;
+}
+header{
+    background-color: #C0AB94;
+    height: 200px;
+}
+p{
+    margin: 0px;
+    font-family: roboto, arial, sans-serif;
+}
+
+.ragnesis{
+    font-size: 60px;
+    text-align: center;
+    color: #F4F3F0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #F4F3F0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    align-items: center;
+}
+
+.nav-links a:hover {
+    color: #595957;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #C0AB94;
+    color: #F4F3F0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #C0AB94;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #F4F3F0;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #C0AB94;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #C0AB94;
+}
+
+footer {
+    background-color: #C0AB94;
+    color: #F4F3F0;
+    text-align: center;
+    padding: 20px;
+}
+.skill-section{
+    background-color: #BDD0D7;
+}
+.head{
+    text-align: center;
+    font-size: 20px;
+    padding: 25px;
+    color: #595957;
+    background-color: #F4F3F0;
+}
+.skill-box{
+    background-color: #BDD0D7;
+    color: #F4F3F0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.skill-container{
+    display: flex;
+    justify-content: center;
+}
+.skills{
+    padding: 10px;
+    background-color: #F4F3F0;
+    font-size: 18px;
+    color: #595957;
+    padding: 40px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    transition: 0.15s;
+    
+}
+.skills:hover{
+    padding: 50px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.project-box{
+    background-color: #91A0A7;
+    padding: 20px;
+}
+.project-card{
+    border-radius: 20px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    background-color: #F4F3F0;
+}
+.title{
+    color: #595957;
+    font-weight: bold;
+    font-size: 18px;
+}
+.description,
+.useskill{
+    color: #71716f;
+    font-size: 15px;
+}
